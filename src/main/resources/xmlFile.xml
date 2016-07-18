@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="UTF-7" ?> -->
+
+<Model> 
+    <ProductName> Computadores </ProductName>
+    <Features>
+        <Feature Key="Marca">
+            <Description>asdasdasdass</Description>
+            <FeaturesValues>
+                <Value key="HP" name="Hewlett Packard"/>
+                <Value key="Dell" name="Dell"/>
+            </FeaturesValues>
+        </Feature>
+        <Feature Key="Procesador">
+            <Description>asdasdasdass</Description>
+            <FeaturesValues>
+                <Value key="I7" name="I7"/>
+                <Value key="I3" name="I3"/>
+            </FeaturesValues>
+        </Feature>
+    </Features>
+    <Products>
+	<Product>
+            <Name>XPS</Name>
+            <ProductDesctption>Ejemplo</ProductDesctption>
+            <Constrians>
+                <Constrain type="include" feature="Marca" Value="HP"/>
+                <Constrain type="requires" feature="Marca" Value="HP" targetFeature="Procesador" targetValue="I3"/>
+            </Constrians>
+        </Product>
+            
+            
+            
+            <FeaturesValues> 
+                <FeatureValue Feature="Marca">
+                    <Value key="HP"/>
+                </FeatureValue>
+                
+                
+                
+                 <Feature Name="Procesador">
+                    <Opcion>Intel Core i5</Opcion>
+                </Feature>
+                <Feature Name="Memoria Ram">
+                    <Opcion>4 GB</Opcion>
+                    <Opcion>8 GB</Opcion>
+                </Feature>  <Feature Name="Tarjeta De Video">
+                    <Opcion>2 GB Dedicado</Opcion>
+                </Feature> 
+                <Feature Name="Precio">
+                     <Opcion>U$ 1300</Opcion>
+                </Feature> 
+                <Feature Name="Disco Duro">
+                    <Opcion>500 GB</Opcion>
+                </Feature> 
+                <Feature Name="Sistema Operativo">
+                     <Opcion> Windows 8</Opcion>
+                </Feature>
+                <Feature Name="Pantalla">
+                   <Pantalla>14.1</Pantalla>
+                </Feature>
+                <Feature Name="Resolucion Pantalla">
+                    <Opcion>WXGA 1200x800</Opcion>
+                </Feature>
+            </Features> 
+        </Product>
+        
+        <Product>
+            <Name>XPS</Name>
+            <ProductDesctption> Ejemplo </ProductDesctption>
+            <Features> 
+                <Feature Name="Marca">
+                    <Opcion>Hewlett Packard</Opcion>
+                </Feature>  
+                 <Feature Name="Procesador">
+                    <Opcion>Intel Core i5</Opcion>
+                </Feature>  <Feature Name="Memoria Ram">
+                    <Opcion>4 GB</Opcion>
+                    <Opcion>8 GB</Opcion>
+                </Feature>  <Feature Name="Tarjeta De Video">
+                    <Opcion>2 GB Dedicado</Opcion>
+                </Feature> 
+                <Feature Name="Precio">
+                     <Opcion>U$ 1300</Opcion>
+                </Feature> 
+                <Feature Name="Disco Duro">
+                    <Opcion>500 GB</Opcion>
+                </Feature> 
+                <Feature Name="Sistema Operativo">
+                     <Opcion> Windows 8</Opcion>
+                </Feature>
+                <Feature Name="Pantalla">
+                   <Pantalla>14.1</Pantalla>
+                </Feature>
+                <Feature Name="Resolucion Pantalla">
+                    <Opcion>WXGA 1200x800</Opcion>
+                </Feature>
+            </Features> 
+        </Product>
+        
+    </Products>
+</Model>
+
+

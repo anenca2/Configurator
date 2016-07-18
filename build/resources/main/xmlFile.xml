@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="UTF-7" ?> -->
+
+<Model> 
+    <NombreProducto> Computadores </NombreProducto>
+    <Productos>
+	<Producto>
+            <Name>XPS</Name>
+            <ProductDesctption> Ejemplo </ProductDesctption>
+            <Features> 
+                <Feature Name="Marca">
+                    <Opcion>Hewlett Packard</Opcion>
+                </Feature>  
+                 <Feature Name="Procesador">
+                    <Opcion>Intel Core i5</Opcion>
+                </Feature>  <Feature Name="Marca">
+                    <Opcion>Hewlett Packard</Opcion>
+                </Feature>  <Feature Name="Marca">
+                    <Opcion>Hewlett Packard</Opcion>
+                </Feature> 
+            </Features>
+            
+            
+            
+            <Modelo_Marca>
+                
+            </Modelo_Marca>
+            <Procesador>
+                <Opcion>Intel Core i5</Opcion>
+            </Procesador>
+            <MemoriaRam>
+                <Opcion>4 GB</Opcion>
+                <Opcion>8 GB</Opcion>
+            </MemoriaRam>
+            <TarjetaDeVideo>
+                <Opcion>2 GB Dedicado</Opcion>
+            </TarjetaDeVideo>
+            <Precio>
+                <Opcion>U$ 1300</Opcion>
+            </Precio>
+            <DiscoDuro>
+                <Opcion>500 GB</Opcion>
+            </DiscoDuro>
+            <SistemaOperativo>
+                <Opcion>
+                    Windows 8
+                </Opcion>
+            </SistemaOperativo>
+            <ResolucionPantalla>
+                <Opcion>WXGA 1200x800</Opcion>
+            </ResolucionPantalla>
+            <Pantalla>14.1</Pantalla>
+	</Producto>
+	<Producto> 
+            <Modelo_Marca>
+                <Opcion>Dell</Opcion>
+            </Modelo_Marca>
+            <Procesador>
+                <Opcion>Intel Core i3</Opcion>
+            </Procesador> 	
+            <MemoriaRam>
+                <Opcion>2 GB</Opcion>
+            </MemoriaRam> 
+            <TarjetaDeVideo>
+                <Opcion>1 GB Dedicado</Opcion>
+            </TarjetaDeVideo>
+            <Precio>
+                <Opcion>U$ 1000</Opcion>
+            </Precio>
+            <DiscoDuro>
+                <Opcion>250 GB</Opcion>
+            </DiscoDuro>
+            <SistemaOperativo>
+                <Opcion>Windows 7</Opcion>
+            </SistemaOperativo>
+            <ResolucionPantalla>
+                <Opcion>1280x800</Opcion>
+            </ResolucionPantalla>
+            <Pantalla>
+                <Opcion>13.3</Opcion>
+            </Pantalla>
+	</Producto>
+	<Producto> 
+            <Modelo_Marca>
+                <Opcion>MacBookPro</Opcion>
+            </Modelo_Marca>
+            <Procesador>
+                <Opcion>Intel Core i7</Opcion>
+            </Procesador> 	
+            <MemoriaRam>
+                <Opcion>8 GB</Opcion>
+            </MemoriaRam> 
+            <TarjetaDeVideo>
+                <Opcion>4 GB Dedicado</Opcion>
+            </TarjetaDeVideo>
+            <Precio>
+                <Opcion>U$ 1700</Opcion>
+            </Precio>
+            <DiscoDuro>
+                <Opcion>1 TB</Opcion>
+            </DiscoDuro>
+            <SistemaOperativo>
+                <Opcion>El Capitan</Opcion>
+            </SistemaOperativo>
+            <ResolucionPantalla>
+                <Opcion>WUXGA 1920x1200</Opcion>
+            </ResolucionPantalla>
+            <Pantalla>
+                <Opcion>13.3</Opcion>
+            </Pantalla>
+	</Producto>
+    </Productos>
+</Model>
+
+
